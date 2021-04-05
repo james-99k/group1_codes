@@ -14,8 +14,8 @@ public class Main {
     }
 
     public static String girlName(){
-        String[] gnames={"Eunice ","Marifel ","Anne ","Marlott ", "Trisha");
-        return  gnames[dice()];
+        String[] gnames={"Eunice ","Marifel ","Anne ","Marlott ", "Trisha"};
+        return  gnames[display()];
     }
 
     public static String relationships(){
