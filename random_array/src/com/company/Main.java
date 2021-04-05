@@ -7,18 +7,21 @@ public class Main {
 
         System.out.println(boyName() + relationships() + girlName());
     }
-    public static String boyName (){
+
         public static String boyName (){
             String[] bnames={"Alvis","James","France","Jesray","Wendell"};
             return  bnames[display()];
         }
-    }
-
-    public static void girlName(){
 
     }
 
-    public static void relationships(){
+    public static String girlName(){
+
+    }
+
+    public static String relationships(){
+        String[] relation={"relation0","relation1","relation2","relation3","relation4","relation5"};
+        return relation[display()];
 
     }
 
