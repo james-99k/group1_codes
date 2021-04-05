@@ -4,11 +4,15 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
+        int i = 1;
 
-        System.out.println(boyName() + relationships() + girlName());
+        while(i <= 10) {
+            System.out.println(boyName() + relationships() + girlName());
+            i++;
+        }
     }
 
-   public static String boyName (){
+   public static String boyName(){
         String[] bnames={"Alvis ","James ","France ","Jesray ","Wendell "};
         return  bnames[display()];
     }
@@ -19,12 +23,12 @@ public class Main {
     }
 
     public static String relationships(){
-        String[] relation={"Hates ","Loves ","is mad with ", "Likes" , "is angry with"};
+        String[] relation={"Hates ","Loves ","is mad with ", "Likes " , "is angry with "};
         return relation[display()];
     }
 
     public static int display(){
         Random dice = new Random();
-        return dice.nextInt(4);
+        return dice.nextInt(5);
     }
 }
