@@ -7,8 +7,11 @@ public class Main {
 
         System.out.println(boyName() + relationships() + girlName());
     }
-    public static void boyName (){
-
+    public static String boyName (){
+        public static String boyName (){
+            String[] bnames={"Alvis","James","France","Jesray","Wendell"};
+            return  bnames[display()];
+        }
     }
 
     public static void girlName(){
